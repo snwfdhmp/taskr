@@ -207,6 +207,34 @@ taskr: task 'lint' completed.
 
 Now you know how to **complete tasks with taskr**.
 
+## Golang package
+
+Taskr is built upon the golang package **taskr**. It can be used by importing *github.com/snwfdhmp/taskr/pkg*
+
+```go
+import (
+	"github.com/snwfdhmp/taskr/pkg"
+)
+```
+
+The package name is **taskr**.
+
+Then, for example
+
+```go
+history, err := taskr.OpenHistory() //error handling is omitted for readability purposes
+tasks, err := taskr.ParseTasks()
+report, err := history.Run(tasks...)
+
+for _, t := range report.Tests {
+	fmt.Println("Test", t.Name, "completed. Congratulations")
+}
+```
+
+## Documentation
+
+The package documentation can be found [here on godoc](https://godoc.org/github.com/snwfdhmp/taskr/pkg).
+
 ## Author
 
 [snwfdhmp](https://github.com/snwfdhmp)

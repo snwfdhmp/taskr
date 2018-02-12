@@ -1,3 +1,8 @@
+/*
+Package taskr is built to keep you going forward.
+See README.md or read it at https://github.com/snwfdhmp/taskr
+Documentation can be found at https://godoc.org/github.com/snwfdhmp/taskr/pkg
+*/
 package taskr
 
 import (
