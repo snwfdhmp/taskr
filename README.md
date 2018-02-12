@@ -18,18 +18,40 @@ taskr: task lint done, reward: 5.
  3 files changed, 12 insertions(+), 1 deletion(-)
 ```
 
-## Getting started
+### Summary
 
-### brew installation
+- [Installation](#installation)
+  	- [Install with brew](#install-with-brew)
+  	- [Install from binaries](#install-from-binaries)
+  	- [Install with go](#install-with-go)
+    	- [Requirements](#requirements)
+    	- [Download](#download)
+    	- [Install](#install)
+- [Getting started](#getting-started)
+- [Go forward](#go-forward)
+- [Complete tasks](#complete-tasks)
+- [Golang package](#golang-package)
+- [Documentation](#documentation)
+- [Author](#author)
 
-Brew installation is available :
+## Installation
+
+Taskr is compatible with windows, macOS, and linux.
+
+### Install with brew
+
+Brew installation is available and maybe the most simple :
 
 ```sh
 $ brew tap snwfdhmp/homebrew-tap
 $ brew install taskr
 ```
 
-### Manual installation
+### Install from binaries
+
+Latest release can be found [here](https://github.com/snwfdhmp/taskr/releases) for Windows, macOS, and linux.
+
+### Install with go
 
 #### Requirements
 
@@ -58,7 +80,7 @@ taskr init
 
 ```
 
-### Let's start !
+## Getting started
 
 Let's create a new git repository.
 
