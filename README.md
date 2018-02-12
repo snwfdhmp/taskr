@@ -1,4 +1,4 @@
-# taskr - go forward
+# taskr ⏩ go forward
 
 **Taskr keeps you going forward by applying strict no-regression rules on your repo.**
 
