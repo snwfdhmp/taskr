@@ -20,7 +20,18 @@ taskr: task lint done, reward: 5.
 
 ## Getting started
 
-### Requirements
+### brew installation
+
+Brew installation is available :
+
+```sh
+$ brew tap snwfdhmp/homebrew-tap
+$ brew install taskr
+```
+
+### Manual installation
+
+#### Requirements
 
 - [go](https://golang.org/doc/install) (easy install)
 
@@ -28,13 +39,13 @@ After you have go installed, **make sure the go binary directory is in your $PAT
 
 If for any reason, you can't add GOPATH/bin to your $PATH, replace every call to  `taskr` by `$(go env GOPATH)/bin/taskr`
 
-### Download
+#### Download
 
 ```bash
 go get -u github.com/snwfdhmp/taskr/...
 ```
 
-### Install
+#### Install
 
 ```bash
 go install github.com/snwfdhmp/taskr
